@@ -60,15 +60,15 @@ main{
 .title{
 	margin: 15px 0 5px;
 }
-@media screem and (max-width:768px) {
+@media screen and (max-width:768px) {
 main{
-	width: 100%;
+	width: 90%;
 	margin: 50px auto;
 }
 
 .step-box{
 	float: left;
-	width: 100%;
+	width: 90%;
 	margin-right: 30px;
 	padding: 10px;
 	position: relative;
@@ -80,20 +80,26 @@ main{
 }
 
 .step-img1{
-	height: 100%;
-	background-image: url(img/flow01.png);
+	width: 90%
+	height: 150px;
+    background-image: url(img/flow01.png);
 	background-size: cover;
 	background-position: bottom;
 }
-
+.mid-box{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 .step-img2{
-	height: 100%;
+	width: 90%;
+	height: 150px;
 	background-image: url(img/flow02.png);
 	background-size: cover;
 	background-position: bottom;
 }
 .step-img3{
-	height: 100%;
+	width: 90%;
+	height: 150px;
 	background-image: url(img/flow03.png);
 	background-size: cover;
 	background-position: bottom;
